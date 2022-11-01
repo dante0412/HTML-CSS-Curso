@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pochita</title>
+    <script src="https://kit.fontawesome.com/539f7182b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="contenedor-header">
+        <div class="logo">
+            <a href="#">
+                <img src="img/pochita.png" alt="pochita" />
+                <h1>Pochita</h1>
+            </a>
+        </div>
+        <div class="navi resp">
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Reseñas</a></li>
+                </ul>
+            </nav>
+        </div>
+        <i class="fa fa-bars"></i>
+        <div class="log resp">
+            <div class="buscar">
+                <input type="text" placeholder="Buscar" />
+                <div class="btn">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="inicio resp">
+            <a href="#">
+                <!-- <img src="img/usuario.png" alt=""> -->
+                <i class="far fa-user"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-shopping-cart"></i>
+            </a>
+        </div>
+    </header>
+    <main class="container-main">
+        <div class="lista">
+            <h1>Carrito de compras</h1>
+            <div class="producto">
+                <img src="img/tres-osos.jpg" alt="">
+                <div class="datos-prod">
+                    <h2>Nombre del producto</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, magnam sapiente. Eos ullam incidunt quam porro, expedita in ratione totam!</p>
+                </div>
+                <div class="precio-btn">
+                    <p>S/. XX.XX</p>
+                    <select name="txtCantidad" id="cant" class="cant">
+                        <option selected value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                    <button type="button" class="btn">
+                        Eliminar
+                    </button>
+                </div>
+            </div>
+            <div class="producto">
+                <img src="img/tres-osos.jpg" alt="">
+                <div class="datos-prod">
+                    <h2>Nombre del producto</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, magnam sapiente. Eos ullam incidunt quam porro, expedita in ratione totam!</p>
+                </div>
+                <div class="precio-btn">
+                    <p>S/. XX.XX</p>
+                    <select name="txtCantidad" id="cant" class="cant">
+                        <option selected value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                    <button type="button" class="btn">
+                        Eliminar
+                    </button>
+                </div>
+            </div>
+
+            
+            <div class="producto">
+                <img src="img/tres-osos.jpg" alt="">
+                <div class="datos-prod">
+                    <h2>Nombre del producto</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, magnam sapiente. Eos ullam incidunt quam porro, expedita in ratione totam!</p>
+                </div>
+                <div class="precio-btn">
+                    <p>S/. XX.XX</p>
+                    <select name="txtCantidad" id="cant" class="cant">
+                        <option selected value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                    <button type="button" class="btn">
+                        Eliminar
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="lista2">
+            <div class="total">
+                <div class="compra">
+                    <h3>Resumen de tu pedido</h3>
+                    <p>Sub-Total : S/. xx.xx</p>
+                    <p>Envio: S/. xx.xx</p>
+                    <p>Total : S/. xx.xx</p>
+                    <button type="submit" class="btn">
+                        Procesar Compra
+                    </button>
+                </div>
+                <br><br><br>
+                <hr>
+                <div class="ayuda">
+                    <div class="procteccion">
+                        <a href="#">
+                            <i class="fas fa-shield-alt icon-ayuda"></i>
+                            <p>Proteccion al comprador</p>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-phone-square-alt icon-ayuda"></i>
+                            <p>Asesoria Telefonica: <br>(01) 999-9999</p>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-box-open icon-ayuda""></i>
+                            <p>Rastrea tu pedido</p>
+                        </a>
+                    </div>
+                    <div class="img-proc">
+                        <img src="img/seguro.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer class="container-footer">
+        <div class="grupo1">
+            <div class="box redes">
+                <div class="ti">
+                    <h2>Redes Sociales</h2>
+                </div>
+                <div class="icons">
+                    <a href="#"> <img alt="" src="img/facebook.png" /> </a>
+                    <a href="#"> <img alt="" src="img/instagram.png" /> </a>
+                    <a href="#"> <img alt="" src="img/tik-tok.png" /> </a>
+                </div>
+            </div>
+
+            <div class="box detalles">
+                <h2>Sobre Nosotros</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+                    saepe quisquam amet deserunt incidunt dolore at quasi nesciunt
+                    laborum unde repudiandae dolor non, odit, odio rerum recusandae
+                    tenetur excepturi fugit.
+                </p>
+            </div>
+
+            <div class="box contacto">
+                <h2>Contactanos</h2>
+                <a href="#">
+                    <img alt="" src="img/gmail.png" />
+                    <p>pochita@gmail.com</p>
+                </a>
+                <a href="#">
+                    <img alt="" src="img/mapa.png" />
+                    <p>Lima - Perú</p>
+                </a>
+                <a href="#">
+                    <img alt="" src="img/telefono.png" />
+                    <p>(01) 099-0001</p>
+                </a>
+            </div>
+
+            <div class="box interes">
+                <h2>Enlaces de Interes</h2>
+                <ul>
+                    <li><a href="#">Libro de Reclamaciones</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Políticas de Privacidad</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>
+                &copy; 2022 <b>Pochita</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
